@@ -8,6 +8,7 @@ What's left:
 4. Consuming one bundle from the other
 5. Factoring out shared code between bundles
 6. Using the bundles from a couple HTML pages
+7. import vs require
 
 ## Tests
 

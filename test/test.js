@@ -2,6 +2,9 @@
 
 var expect = require('chai').expect;
 var numSquarer = require('../index');
+//import foo from '../dist/Silly';
+var foo = require('../dist/Silly');
+//var Silly = require('../dist/Silly');
 
 describe('numSquarer', function() {
     it('negatives become positive', function() {
@@ -16,5 +19,9 @@ describe('numSquarer', function() {
         var result = numSquarer(3);
         expect(result).to.equal(9);
     });
+    it('silly works', function() {
+        var result = foo(5);
+        expect(result).to.equal(30);
+    })
 
 });
