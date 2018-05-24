@@ -1,5 +1,5 @@
 {
-  "name": "node-bootstrap",
+  "name": "@gergelyk/node-bootstrap",
   "version": "1.0.0",
   "description": "Quick test to make sure I can make an npm project",
   "main": "index.js",
